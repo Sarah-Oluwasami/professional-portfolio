@@ -37,13 +37,13 @@ const AnimatedText = ({ text }) => {
 function Introduction() {
   return (
     <div className="h-[40vh]">
-      <div className="mt-20 mx-auto w-[80%]">
+      <div className="mt-20 mx-auto w-[75%]">
         <blockquote className="mb-10">
-          <h1 className="text-4xl tracking-[.60em] font-extrabold">
+          <h1 className="text-4xl tracking-[.60em]  font-extrabold">
             <AnimatedText text="I'M SARAH OLUWASAMI" />
           </h1>
         </blockquote>
-        <blockquote className="space-y-8 text-[15px] text-zinc-400 tracking-wide">
+        <blockquote className="space-y-8 text-zinc-400 tracking-wide">
           <p>
             Your friendly neighborhood frontend developer, ReactJS and
             JavaScript engineer. I spend my days (and often nights) painting the

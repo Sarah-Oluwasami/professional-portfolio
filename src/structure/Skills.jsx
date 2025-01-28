@@ -7,7 +7,7 @@ import SplideCarousel from "../Carousel";
 
 function Skills() {
   return (
-    <div className="mx-44 mt-8">
+    <div className="mx-auto w-[80%] mt-8">
       <h1 className="text-[3rem] font-bold text-green-100 tracking-wide font-sans mb-6">
         About Me.
       </h1>
@@ -16,7 +16,10 @@ function Skills() {
           <h2 className="text-xl font-bold tracking-wide py-2">
             Engineering <FontAwesomeIcon icon={faGithub} />
           </h2>
-          <a className="underline font-thin text-zinc-700 text-[15px] tracking-wide">
+          <a
+            href="https://github.com/Sarah-Oluwasami"
+            className="underline font-thin text-zinc-700 text-[15px] tracking-wide"
+          >
             View Github
           </a>
         </blockquote>

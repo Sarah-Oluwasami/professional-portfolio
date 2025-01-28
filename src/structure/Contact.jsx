@@ -4,7 +4,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
-    <div className="ml-80 mt-8">
+    <div className="mt-20 mx-auto  w-fit">
       <blockquote className=" text-[3rem] font-bold text-green-100 tracking-wide font-sans mb-6">
         <h1 className="">Contact Us.</h1>
       </blockquote>
@@ -17,7 +17,7 @@ function Contact() {
               <input
                 type="name"
                 placeholder="Name"
-                className="border-[1px] px-4 rounded-md border-zinc-100 transition duration-500 bg-[#aac7c500] hover:border-zinc-300 mr-4 w-[47rem] h-12 "
+                className="border-[1px] px-4 rounded-md border-zinc-100 transition duration-500 bg-[#aac7c500] hover:border-zinc-300 w-[47rem] lg:max-xl:w-[40rem] md:max-lg:w-[35rem] sm:max-md:w-[32rem] max-sm:w-80 h-12 "
               />
             </blockquote>
 
@@ -26,18 +26,16 @@ function Contact() {
               <input
                 type="email"
                 placeholder="Email"
-                className=" border-[1px] px-4 rounded-md border-zinc-100 transition duration-500 bg-[#aac7c500] hover:border-zinc-300 w-[47rem] h-12"
+                className=" border-[1px] px-4 rounded-md border-zinc-100 transition duration-500 bg-[#aac7c500] hover:border-zinc-300 w-[47rem] lg:max-xl:w-[40rem] md:max-lg:w-[35rem] sm:max-md:w-[32rem] max-sm:w-80 h-12"
               />
             </blockquote>
 
             <blockquote className="">
               <br />
               <textarea
-                className="border-[1px] p-4 rounded-md border-zinc-100 bg-[#aac7c500] transition duration-500 hover:border-zinc-300"
+                className="border-[1px] p-4 rounded-md border-zinc-100 bg-[#aac7c500] transition duration-500 hover:border-zinc-300 w-[47rem] lg:max-xl:w-[40rem] md:max-lg:w-[35rem] sm:max-md:w-[32rem] max-sm:w-80 h-40 resize-none"
                 placeholder="Message"
                 name="message"
-                rows="6"
-                cols="96"
               ></textarea>
             </blockquote>
 

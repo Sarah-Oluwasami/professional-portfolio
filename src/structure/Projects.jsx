@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -54,8 +55,8 @@ const projects = [
 
 function Projects() {
   return (
-    <div className="mx-44 mt-8">
-      <h1 className="text-[3rem] font-bold text-green-100 tracking-wide font-sans mb-10 ml-24">
+    <div className="mt-20 mx-auto w-[80%]">
+      <h1 className="text-[3rem] font-bold text-green-100 tracking-wide font-sans mb-10 ">
         Projects.
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center">
@@ -80,14 +81,9 @@ function Projects() {
         ))}
       </div>
       <blockquote className="space-x-4 mt-9">
-        <a
-          href="https://example.com/contact"
-          className="text-md text-zinc-300 hover:border-b-2"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link to={"/contact"} className="text-md text-zinc-300 hover:border-b-2">
           Are you convinced to contact me now?
-        </a>
+        </Link>
         <FontAwesomeIcon
           icon={faArrowRight}
           className="icon text-white animate-bounceX"

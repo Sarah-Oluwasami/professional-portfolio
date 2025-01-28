@@ -6,10 +6,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
-    <div className="mb-20">
-      <div className="ml-[11rem] my-14 flex space-x-10 ">
-        
-
+    <div className="">
+      <div className="max-sm:fixed bottom-0 max-sm:justify-around max-sm:w-full max-sm:bg-black max-sm:opacity-25 p-3   mt-20 mx-auto w-[80%] sm:my-14 flex space-x-10 ">
         <a
           href="https://www.linkedin.com/in/sarah-oluwasami-241a90291/"
           className=" "
