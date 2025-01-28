@@ -39,7 +39,7 @@ function Introduction() {
     <div className="h-[40vh]">
       <div className="mt-20 mx-auto w-[75%]">
         <blockquote className="mb-10">
-          <h1 className="text-4xl tracking-[.60em]  font-extrabold">
+          <h1 className="sm:text-4xl text-xl sm:tracking-[.60em] tracking-[.60em] leading-snug  font-extrabold">
             <AnimatedText text="I'M SARAH OLUWASAMI" />
           </h1>
         </blockquote>

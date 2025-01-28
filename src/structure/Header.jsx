@@ -40,7 +40,7 @@ function Header() {
         <blockquote
           className={`${
             isOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
-          } transition-transform duration-500 ease-in-out  max-sm:bg-black max-sm:opacity-25 p-6 overflow-hidden flex sm:flex-row flex-col max-sm:fixed max-sm:h-[100%] max-sm:top-0 max-sm:right-0  items-center max-sm:justify-center max-sm:space-y-3 space sm:space-x-10 text-lg  max-sm:font-medium text-zinc-50 sm:mr-10`}
+          } transition-transform duration-500 ease-in-out max-sm:backdrop-blur max-sm:z-10 max-sm:bg-black max-sm:bg-opacity-45 p-6 overflow-hidden flex sm:flex-row flex-col max-sm:fixed max-sm:h-[100%] max-sm:top-0 max-sm:right-0  items-center max-sm:justify-center max-sm:space-y-3 space sm:space-x-10 text-lg  max-sm:font-medium text-zinc-50 sm:mr-10`}
         >
           <Link
             to={"/skills"}
@@ -50,13 +50,13 @@ function Header() {
           </Link>
           <Link
             to={"/projects"}
-            className="relative inline-block text-zinc-400 hover:text-white after:block after:absolute after:w-0 after:h-[1px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:duration-300 hover:after:w-full tracking-wider"
+            className="relative inline-block text-zinc-400  hover:text-white after:block after:absolute after:w-0 after:h-[1px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:duration-300 hover:after:w-full tracking-wider"
           >
             Projects
           </Link>
           <Link
             to={"/contact"}
-            className="relative inline-block text-zinc-400 hover:text-white after:block after:absolute after:w-0 after:h-[1px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:duration-300 hover:after:w-full tracking-wider"
+            className="relative inline-block text-zinc-400  hover:text-white after:block after:absolute after:w-0 after:h-[1px] after:bg-white after:bottom-0 after:left-0 after:transition-all after:duration-300 hover:after:w-full tracking-wider"
           >
             Contact me
           </Link>

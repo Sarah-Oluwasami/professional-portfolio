@@ -25,7 +25,7 @@ const projects = [
     alt: "Weather project",
     delay: 600,
     marginTop: "mt-4",
-    externalLink: "https://example.com/weather",
+    externalLink: "https://open-weather-website.netlify.app/",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const projects = [
     alt: "My Portfolio project",
     delay: 800,
     marginTop: "mt-8",
-    externalLink: "https://example.com/portfolio",
+    
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const projects = [
     alt: "Exchange project",
     delay: 1200,
     marginTop: "mt-12",
-    externalLink: "https://example.com/exchange",
+    
   },
 ];
 
